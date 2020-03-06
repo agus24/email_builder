@@ -3,7 +3,7 @@
 - create your html inside `templates` folder
 - create your styling in `scss` folder
 - configure your `laravel-mix` config (you can see the configuration at https://laravel-mix.com/docs/5.0/basic-example)
-- run `npm run dev` to test your design or using `npm run watch` to see live change of your style
+- run `npm run dev` to test your design or using `npm run watch` to see live change of your scss
 
 # Build
 - setup your build config in `convert.config.js`
