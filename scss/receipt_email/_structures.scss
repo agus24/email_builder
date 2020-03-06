@@ -1,0 +1,59 @@
+hr {
+    display: block; 
+    height: 1px;
+    border: 0; 
+    border-top: 1px solid #ccc;
+    margin: 1em 0; 
+    padding: 0;
+}
+
+img {
+    &.logo {
+        width: 100px;
+    }
+}
+
+@for $i from 10 through 100 {
+    .top-#{$i} {
+        margin-top: #{$i}px;
+    }
+    .bottom-#{$i} {
+        margin-bottom: #{$i}px;
+    }
+}
+
+.table-payment, .table-items{
+    tr{
+        td:nth-child(2) {
+            text-align: right;
+        }
+    }
+}
+
+.table-ammount {
+    td {
+        font-weight: bold;
+    }
+
+    td:nth-child(2) {
+        text-align: right;
+    }
+}
+
+.stamps-point {
+    padding: 5px 10px;
+    border: 3px solid $primary;
+}
+
+.stamps-point {
+    color: black;
+    border-color: $primary;
+
+    &:hover{
+        cursor: default;
+    }
+
+    .logo-stamps {
+        margin-top : -5px;
+    }
+}

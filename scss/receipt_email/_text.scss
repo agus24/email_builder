@@ -1,0 +1,29 @@
+h1, h2, h3, h4, p, span {
+    font-family: $font;
+    font-weight: 100;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+h1 {
+    &.title {
+        color: #4e4d4e;
+    }
+}
+
+a {
+    color: $primary;
+    &:hover {
+        color: $primary;
+    }
+}
