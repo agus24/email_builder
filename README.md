@@ -1,5 +1,6 @@
 # Usage
 - clone this repository
+- run `npm install`
 - create your html inside `templates` folder
 - create your styling in `scss` folder
 - configure your `laravel-mix` config (you can see the configuration at https://laravel-mix.com/docs/5.0/basic-example)
